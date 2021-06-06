@@ -54,9 +54,6 @@ img{
   transform: translate(-50%,-50%);
 }
 .Keypad {
-    /* display: flex;
-    flex-wrap: wrap;
-    flex-direction: column; */
     height: 280px;
     width:200px;
     padding: 10px;

@@ -27,19 +27,9 @@ handleClick = (event) => {
         }
 };
 
-// calculate = () => {
-//         try {
-//             const result = eval(this.state.displayData|| "" ) + "";
-//             this.setState({displayData: result});
-//         } catch (err) {
-//             this.setState({displayData: 'error'})
-//         }
-// };
-// or, in the place of 'eval' we can use 'mathjs' (recommended). for that we need to install & import mathjs [package module].
-
 calculate = () => {
     try {
-     const result = math.evaluate(this.state.displayData|| "").toFixed(2) + ""; //.toFixed() [optional] & used to take two digits after decimal.
+     const result = math.evaluate(this.state.displayData|| "") /*.toFixed(2)*/ + "";
         this.setState({displayData: result});
     } catch (err) {
         this.setState({displayData: 'error'})

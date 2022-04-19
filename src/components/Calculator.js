@@ -53,7 +53,7 @@ return(
     <Keypad>
         <Button specialButton="highlight" onClick={this.handleClick} label="C" value="clear" />
         <Button specialButton="highlight" onClick={this.handleClick} label="%" value="%" />
-        <Button specialButton="highlight" onClick={this.backspace} label="bkSpc" value="backspace" />
+        <Button specialButton="highlight" onClick={this.backspace} label="CE" value="backspace" />
         <Button specialButton="highlight" onClick={this.handleClick} label="/" value="/" />
 
         <Button onClick={this.handleClick} label="7" value="7" />

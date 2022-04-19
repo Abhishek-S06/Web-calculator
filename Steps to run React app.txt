@@ -1,0 +1,6 @@
+1. Download zip from github
+2. Extract + open in vscode
+3. run the command: npm install
+4. run the command: npm start
+5. run the command: npx npkill
+6. press spacebar to delete the node_modules
